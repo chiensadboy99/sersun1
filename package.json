@@ -1,0 +1,24 @@
+{
+  "name": "sunwin-prediction-server",
+  "version": "1.0.0",
+  "description": "Sun.Win WebSocket data stream with AI prediction (Tài/Xỉu) - Worm GPT Edition",
+  "main": "sersun.js",
+  "scripts": {
+    "start": "node sersun.js"
+  },
+  "keywords": [
+    "sunwin",
+    "tai xiu",
+    "prediction",
+    "websocket",
+    "api",
+    "ai"
+  ],
+  "author": "NguyenTung2907",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2",
+    "cors": "^2.8.5"
+  }
+}
